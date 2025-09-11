@@ -2,9 +2,9 @@
   "name": "tskmgapi",
   "version": "1.0.0",
   "description": "Task Manager API",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "nodemon src/server.js"
   },
   "author": "Deep Chakraborty",
   "license": "ISC",
