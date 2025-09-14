@@ -28,11 +28,6 @@ export const Logout = (req,res)=>{
             data:null
         })
     })
-
+    
     req.session.user = null;
-    res.status(200).json({
-        message:"Logout successful",
-        data:null
-    })
-
 }

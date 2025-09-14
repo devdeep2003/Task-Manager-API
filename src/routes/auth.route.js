@@ -3,7 +3,7 @@ import { Login, Logout } from "../controllers/auth.controller.js";
 
 const router = Router();
 
-router.get("/login", Login);
+router.post("/login", Login);
 
 router.get("/logout", Logout);
 
